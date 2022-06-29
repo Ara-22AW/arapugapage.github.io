@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #C39BD;
+    font-family: "Roboto", Arial;
+    border-top: 30px solid #C39BD3;
+}
+
+.wrap {
+    width: 90%;
+    max-width: 500px;
+    padding: 40px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0px 0px 3px grey;
+}
+
+.contenedor-formulario {
+    width: 100%;
+    color: #D5DBDB;
+    padding: 50px;
+    background-image: url("https://www.grooves-inc.com/images/knv/049/320/0888837049320.jpg");
+}
+
+.formulario {
+    width: 100%;
+    margin: auto;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+input[type="text"] {
+    font-family: "Calibri", Calibri;
+    font-size: 16px;
+    color: #303F9F;
+    width: 100%;
+    outline: none;
+    padding: 15px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #273746;
+
+}
+
+label {
+    color: #273746;
+    top: 16px;
+    left: 0px;
+    font-size: 16px;
+    line-height: 16px;
+    margin-left: 16px;
+    -webkit-transition: all .3 ease;
+    -o-transition: all .3 ease;
+    transition: all .3 ease;
+
+}
+
+input[type="submit"] {
+    background: #E6B0AA;
+    border-radius: 1px;
+    border: 2px solid #f2f2f2;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px;
+    width: 100%;
+    font-family: "Roboto", Arial;
+    font-size: 16px;
+}
+
+text {
+    color: blue;
+}
+
+.area {
+    background: #F48FB1;
+    border-radius: 1px;
+    border: 2px solid #f2f2f2;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px;
+    width: 100%;
+    font-family: "Roboto", Arial;
+    font-size: 18px;
+}

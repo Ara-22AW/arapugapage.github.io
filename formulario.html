@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="formulario.css">
+    <title>T i c k e t</title>
+
+</head>
+
+<body>
+
+    <div class="contenedor-formulario">
+        <div class="wrap">
+            <form action="" class="formulario" name="formulario-registro" method="post">
+                <div>
+
+                    <label for="correo">Área a atender:</label>
+
+                    <br>
+                    <br>
+
+                    <select name="transporte" class="area">
+
+                        <option>Área de hardware</option>
+
+                        <option>Área de software</option>
+
+                        <option>Área de redes</option>
+
+                        <option>Área de usuarios</option>
+
+                    </select>
+
+                    <br>
+                    <br>
+                    <br>
+
+                    <text>Datos generales:</text>
+
+                    <br>
+
+                    <div class="input-group">
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                    </div>
+
+                    <div class="input-group">
+                        <input type="text" id="Num cliente" name="Num cliente" placeholder="Numero de Cliente">
+                    </div>
+
+                    <div class="input-group">
+                        <input type="text" id="Num de serie" name="Num de serie" placeholder="Numero de Serie">
+                    </div>
+
+                    <div class="input-group">
+                        <input type="text" id="Marca" name="Marca" placeholder="Marca">
+                    </div>
+
+                    <br>
+
+                    <text>Tipo:</text>
+
+                    <br>
+                    <br>
+                    <br>
+
+                    <div class="input-group radio">
+                        <input type="radio" name="tipo" id="Celular" value="Celular">
+                        <label for="Celular">Celular</label>
+                    </div>
+
+                    <div class="input-group radio">
+                        <input type="radio" name="tipo" id="Tableta" value="Tableta">
+                        <label for="Tableta">Tableta</label>
+                    </div>
+
+                    <div class="input-group radio">
+                        <input type="radio" name="tipo" id="Laptop" value="Laptop">
+                        <label for="Laptop">Laptop</label>
+                    </div>
+
+                    <div class="input-group checkbox">
+                        <input type="checkbox" name="terminos" id="terminos" value="true">
+                        <label for="terminos">Acepto los terminos y condiciones</label>
+                    </div>
+
+                    <input type="submit" id="btn-submit" value="Enviar">
+
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
